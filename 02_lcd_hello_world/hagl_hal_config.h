@@ -1,6 +1,6 @@
 /*
 
-MIT License
+MIT No Attribution
 
 Copyright (c) 2020 Mika Tuupola
 
@@ -9,13 +9,10 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+furnished to do so.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
@@ -24,10 +21,7 @@ SOFTWARE.
 
 -cut-
 
-This file is part of the GD32V MIPI DCS HAL for the HAGL graphics library:
-https://github.com/tuupola/hagl_gd32v_mipi
-
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: MIT-0
 
 */
 
@@ -38,6 +32,7 @@ SPDX-License-Identifier: MIT
 extern "C" {
 #endif
 
+#include <mipi_dcs.h>
 
 #define MIPI_DISPLAY_ADDRESS_MODE   (MIPI_DCS_ADDRESS_MODE_BGR|MIPI_DCS_ADDRESS_MODE_SWAP_XY|MIPI_DCS_ADDRESS_MODE_MIRROR_Y)
 #define MIPI_DISPLAY_OFFSET_X       (1)
