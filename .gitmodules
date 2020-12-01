@@ -7,3 +7,9 @@
 [submodule "02_lcd_hello_world/lib/hagl_hal"]
 	path = 02_lcd_hello_world/lib/hagl_hal
 	url = git@github.com:tuupola/hagl_gd32v_mipi.git
+[submodule "03_bouncing_ball/lib/hagl"]
+	path = 03_bouncing_ball/lib/hagl
+	url = git@github.com:tuupola/hagl.git
+[submodule "03_bouncing_ball/lib/hagl_hal"]
+	path = 03_bouncing_ball/lib/hagl_hal
+	url = git@github.com:tuupola/hagl_gd32v_mipi.git
