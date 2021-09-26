@@ -41,24 +41,19 @@ void main()
     //hagl_put_text(L"Hこんにちは世界!", 20, 60, green, font6x9);
 
     while (1) {
-        // int16_t x0 = 0;
-        // int16_t x1 = DISPLAY_WIDTH / 3;
-        // int16_t x2 = 2 * x1;
+        /* Center the text automagically. */
+        int16_t cx = DISPLAY_WIDTH / 2 - (12 * 6 / 2);
+        int16_t cy = DISPLAY_HEIGHT / 2 - 4;
 
-        // hagl_fill_rectangle(x0, 0, x1 - 1, DISPLAY_HEIGHT, red);
-        // hagl_fill_rectangle(x1, 0, x2 - 1, DISPLAY_HEIGHT, green);
-        // hagl_fill_rectangle(x2, 0, DISPLAY_WIDTH, DISPLAY_HEIGHT, blue);
-        // hagl_flush();
-
-        hagl_put_text(L"Hello world!", 48, 32, red, font6x9);
+        hagl_put_text(L"Hello world!", cx, cy, red, font6x9);
         delay_1ms(100);
         hagl_flush();
 
-        hagl_put_text(L"Hello world!", 48, 32, green, font6x9);
+        hagl_put_text(L"Hello world!", cx, cy, green, font6x9);
         delay_1ms(100);
         hagl_flush();
 
-        hagl_put_text(L"Hello world!", 48, 32, blue, font6x9);
+        hagl_put_text(L"Hello world!", cx, cy, blue, font6x9);
         delay_1ms(100);
         hagl_flush();
     };
