@@ -26,8 +26,15 @@ SPDX-License-Identifier: MIT-0
 */
 
 #include <stdio.h>
+#include <nuclei_sdk_hal.h>
 
 void main(void)
 {
-    printf("Hello world!\r\n");
+    gd_led_init(LED_1);
+
+    while (1) {
+        printf("Hello world!\r\n");
+        gd_led_toggle(LED_1);
+        delay_1ms(200);
+    }
 }
