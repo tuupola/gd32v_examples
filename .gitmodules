@@ -1,6 +1,3 @@
-[submodule "nuclei-sdk"]
-	path = nuclei-sdk
-	url = git@github.com:tuupola/nuclei-sdk.git
 [submodule "02_lcd_hello_world/lib/hagl"]
 	path = 02_lcd_hello_world/lib/hagl
 	url = git@github.com:tuupola/hagl.git
