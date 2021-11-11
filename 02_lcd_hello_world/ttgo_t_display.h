@@ -40,6 +40,7 @@ extern "C" {
 #define MIPI_DISPLAY_OFFSET_Y       (52)
 #define MIPI_DISPLAY_PIN_BL         (GPIO_PIN_10)
 #define MIPI_DISPLAY_PORT_BL        (GPIOB)
+#define MIPI_DISPLAY_GPIO_MODE_BL   (GPIO_MODE_OUT_PP)
 #define MIPI_DISPLAY_PIN_CLK        (GPIO_PIN_5)
 #define MIPI_DISPLAY_PORT_CLK       (GPIOA)
 #define MIPI_DISPLAY_PIN_MISO       (-1)
